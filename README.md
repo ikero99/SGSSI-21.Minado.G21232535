@@ -16,17 +16,17 @@ El objetivo del minero en es conseguir que el resumen del ultimo bloque tenga la
 
 Para ejecutar los programas:
 
-- hash_checker:
+- *hash_checker*:
 
 ```shell
 python3 hash_checker.py <inputfile>
 ```
-- hashmining:
+- *hashmining*:
 
 ```shell
 python3 hashmining.py <inputfilename> <outputfilename> <zeroint>
 ```
-- hashminingTime:
+- *hashminingTime*:
 
 ```shell
 python3 hashminingTime.py <inputfile> <outputfilename> <timeint>
@@ -34,8 +34,14 @@ python3 hashminingTime.py <inputfile> <outputfilename> <timeint>
 
 ## Problemas frecuentes
 
-En caso de error en hashminingTime.py con el import progress ejecutar en shell:
+En caso de error en hashminingTime.py con el *import progress* ejecutar en *shell*:
 
 ```shell
 pyp3 install progress
 ```
+
+## Integridad de los archivos
+
+- *hash_checker.py*: a48f80062abefd16fc0c80ad55451aee
+- *hashmining.py*: 503a1dea14e1d8960b7a9e822ed487b4
+- *hashminingTime.py*: 48fa93396d6ac68626618834222f5ac7

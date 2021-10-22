@@ -37,7 +37,7 @@ python3 hashminingTime.py <inputfile> <outputfilename> <timeint>
 En caso de error en hashminingTime.py con el *import progress* ejecutar en *shell*:
 
 ```shell
-pyp3 install progress
+pip3 install progress
 ```
 
 ## Integridad de los archivos
